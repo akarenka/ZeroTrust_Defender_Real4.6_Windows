@@ -1,0 +1,19 @@
+ZeroTrust Defender & Analyzer — Real Windows Edition
+License: MIT License. Copyright © 2026 ZeroTrust Defender Contributors. See `LICENSE` for the complete terms. Microsoft, Windows, and Microsoft Defender are trademarks of Microsoft Corporation. Comodo and Process Hacker/System Informer are referenced only to describe the original demonstration concept; they are not bundled with or endorsed by this project.
+English
+Requirements: Windows 10/11 and Python 3.10 or newer. Extract the ZIP, then double-click `START_ADMIN.bat`. Accept the Windows UAC prompt. The dashboard opens at `http://127.0.0.1:8765` and is reachable only from this PC.
+Real functions: live Windows process inventory, safe process metadata inspection, confirmed process termination, Microsoft Defender status, Defender Quick Scan, DNS cache flush, and cleanup of temporary files older than one day. Every Status Report contains Traditional Chinese, English, and Japanese sections together and can be downloaded as a UTF-8 TXT file. Windows' special scan-age value `4294967295` is shown as “Never scanned / unavailable.” Logs and per-step errors are shown in the dashboard/console.
+The three attack buttons remain safe simulations. They never create a payload, persistence, process injection, or process hollowing. Comodo and Process Hacker are third-party products and are not bundled or impersonated as installed engines. The UI demonstrates equivalent workflows using Windows APIs and Microsoft Defender.
+Warnings: save work before terminating a process. Some processes are protected by Windows. Temporary cleanup skips locked files. Closing the console stops the local backend. Do not expose port 8765 to the network.
+日本語
+必要環境：Windows 10/11、Python 3.10 以降。ZIP を展開し、`START_ADMIN.bat` をダブルクリックして UAC を許可します。ダッシュボードはこの PC のみ接続可能な `http://127.0.0.1:8765` で開きます。
+実機能：Windows プロセス一覧、安全なプロセスメタデータ検査、確認付きプロセス強制終了、Microsoft Defender 状態表示、Defender クイックスキャン、DNS キャッシュ消去、1日より古い一時ファイルの削除。各レポートには繁體中文・English・日本語の3セクションが同時に入り、UTF-8 TXT として保存できます。`4294967295` は「未スキャン／データなし」と表示します。
+3つの攻撃ボタンは安全のためシミュレーションのままです。ペイロード、WMI 永続化、メモリ注入、プロセス空洞化を実行しません。Comodo / Process Hacker 本体は同梱されていません。
+注意：プロセス終了前に作業を保存してください。Windows の保護プロセスは終了できません。コンソールを閉じるとローカルバックエンドも停止します。ポート 8765 を外部公開しないでください。
+ライセンス：MIT License。完全な条文は `LICENSE` を参照してください。第三者の製品名および商標は各所有者に帰属します。
+繁體中文
+需求：Windows 10/11、Python 3.10 以上。解壓縮後雙擊 `START_ADMIN.bat`，允許 UAC。儀表板只在本機 `http://127.0.0.1:8765` 開啟。
+真實功能：Windows 即時程序清單、安全的程序中繼資料檢查、確認後終止程序、Microsoft Defender 狀態、Defender 快速掃描、清除 DNS 快取、清除一天以前的暫存檔。每份狀況報告會同時包含繁中、英文、日文三個段落，並可下載 UTF-8 TXT。Windows 特殊數值 `4294967295` 會改為「從未掃描／無資料」。
+三個攻擊按鈕基於安全理由保留為模擬，不會建立惡意載荷、WMI 常駐、記憶體注入或程序掏空。Comodo 與 Process Hacker 本體不包含在套件內。
+注意：終止程序前請先儲存工作；Windows 保護程序無法終止。關閉命令視窗會停止後端。請勿把 8765 埠公開到網路。
+授權：MIT License，完整條款請參閱 `LICENSE`。第三方產品名稱與商標均屬其各自所有者。
